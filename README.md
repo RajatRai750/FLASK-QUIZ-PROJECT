@@ -23,4 +23,26 @@ Features:
 Name: Rajat Rai - rajat.rai@annalect.com
 ProjectLink: https://github.com/RajatRai750/FLASK-QUIZ-PROJECT.git
 
+$ cd flask-quiz-app
 
+
+# use virtual env if you want
+
+$ virtualenv ENV && source ENV/bin/activate
+
+
+# generate static project
+
+$ pip install -r requirements.txt
+
+
+# export flask app and run
+
+$ set FLASK_APP=main.py
+
+$ flask run
+
+
+# generate static project
+
+$ npm run generate
